@@ -2,15 +2,16 @@
   "name": "servidor-laboratorios",
   "version": "1.0.0",
   "description": "",
-  "main": "laboratorio.js",
+  "main": "Laboratorio.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && laboratorio.js",
-    "start": "node laboratorio.js"
+    "start": "node Laboratorio.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "labrador": "^0.6.12",
     "mysql": "^2.18.1",

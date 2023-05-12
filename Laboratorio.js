@@ -1,8 +1,9 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 const app = express();
-const port = 4000;
+const port = process.env.PORT;
 
 app.use(express.static(__dirname));
 app.use(express.urlencoded({ extended: true }));
